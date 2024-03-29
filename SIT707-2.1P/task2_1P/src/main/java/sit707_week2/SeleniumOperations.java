@@ -53,7 +53,7 @@ public class SeleniumOperations {
 		WebElement element = driver.findElement(By.id("firstname"));
 		System.out.println("Found element: " + element);
 		// Send first name
-		element.sendKeys("Zainab");
+		element.sendKeys("mksingh98");
 		
 		/*
 		 * Find following input fields and populate with values
@@ -61,7 +61,7 @@ public class SeleniumOperations {
 		// Write code
 		WebElement lastnameElement = driver.findElement(By.id("lastname"));
 		System.out.println("Found element: " + element);
-        lastnameElement.sendKeys("Khan");
+        lastnameElement.sendKeys("Singh");
         
         WebElement phoneNumberElement = driver.findElement(By.id("phoneNumber"));  // Check if ID "phone" is correct
         System.out.println("Found element: " + lastnameElement);
@@ -69,13 +69,13 @@ public class SeleniumOperations {
         
         WebElement emailElement = driver.findElement(By.id("email"));
         System.out.println("Found element: " + emailElement);
-        emailElement.sendKeys("Zainab@example.com");
+        emailElement.sendKeys("mksingh@example.com");
         
         WebElement passwordElement = driver.findElement(By.id("password"));  // Check if ID "password" is correct
-        passwordElement.sendKeys("zainab123"); 
+        passwordElement.sendKeys("mksingh98"); 
         
         WebElement confirmPasswordElement = driver.findElement(By.id("confirmPassword"));  // Check if ID "password" is correct
-        confirmPasswordElement.sendKeys("zainab123"); 
+        confirmPasswordElement.sendKeys("mksingh98"); 
 		
 		/*
 		 * Identify button 'Create account' and click to submit using Selenium API.
@@ -135,7 +135,7 @@ public class SeleniumOperations {
 		
 		// Find first input field which is firstname
 		 WebElement firstNameElement = driver.findElement(By.id("login__firstName"));
-		    firstNameElement.sendKeys("Zainab");
+		    firstNameElement.sendKeys("mksingh98");
 		
 		/*
 		 * Find following input fields and populate with values
@@ -143,10 +143,10 @@ public class SeleniumOperations {
 		// Write code
 
 		    WebElement lastNameElement = driver.findElement(By.id("login__lastName"));
-		    lastNameElement.sendKeys("Khan");
+		    lastNameElement.sendKeys("Singh");
 
 		    WebElement emailElement = driver.findElement(By.id("login__email"));
-		    emailElement.sendKeys("Zainab@example.com");
+		    emailElement.sendKeys("mksingh@example.com");
         
 		/*
 		 * Identify button 'Create account' and click to submit using Selenium API.
@@ -162,7 +162,7 @@ public class SeleniumOperations {
         File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
         // Specify the path where you want to save the screenshot
-        String screenshotPath = "C:\\Users\\Zaina\\OneDrive\\Documents\\deakin\\software testing\\week 2\\2.1P-resources\\task2_1P\\src\\images\\alternativeScreenshot.png";
+        String screenshotPath = "C:\\Users\\Mukul\\OneDrive\\Documents\\deakin\\software testing\\week 2\\2.1P-resources\\task2_1P\\src\\images\\alternativeScreenshot.png";
 
         // Move the screenshot file to the specified path
         try {
